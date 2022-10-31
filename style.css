@@ -1,0 +1,69 @@
+:root {
+  --primary-bg: #2c3947;
+}
+
+body {
+  background: var(--primary-bg);
+  margin: 0 auto;
+  width: 80%;
+  border-style: solid;
+}
+
+#head {
+  display: flex;
+  flex-direction: row;
+  width: 80%;
+  margin: 0 auto;
+  height: 250px;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 1rem;
+  gap: 3rem;
+}
+
+.header {
+  border-style: solid;
+  border-color: whitesmoke;
+  border-radius: 6rem;
+}
+
+.texts h1 {
+  color: red;
+  font-size: 7rem;
+}
+
+.texts h5 {
+  color: white;
+  font-size: 2rem;
+  padding-left: 1rem;
+}
+
+.container{
+    display: flex;
+    flex-direction: row ;
+    padding: inherit;
+    margin: 0 auto;
+    height: 450px;
+}
+
+.container .left-container{
+    background: rgb(233, 170, 82);
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.8rem 0.8rem;
+}
+
+.left-container .im{
+    padding: 0%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.container .right-container{
+    background: skyblue;
+    width: 50%;
+    margin: 0 auto;
+    padding: 0.8rem 0.8rem;
+}
