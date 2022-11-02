@@ -38,54 +38,27 @@ body {
   padding-left: 1rem;
 }
 
-.container{
-    display: flex;
-    flex-direction: row ;
-    padding: inherit;
-    margin: 0 auto;
-    height: 450px;
+.container {
+  display: flex;
+  flex-direction: row;
+  padding: inherit;
+  margin: 0 auto;
+  height: 450px;
+  row-gap: 30px;
 }
 
-.container .left-container{
-    background: rgb(233, 170, 82);
-    width: 50%;
-    margin: 0 auto;
-    padding: 0.8rem 0.8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.container .left-container {
+  background: rgb(233, 170, 82);
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.8rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
-.left-container .im{
-    padding: 0%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-}
-
-.left-container .if{
-  text-align: center;
-  color: white;
-  font-size: 1rem;
-}
-
-.container .right-container{
-    background: skyblue;
-    width: 50%;
-    margin: 0 auto;
-    padding: 0.8rem 0.8rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    color: whitesmoke;
-    font-size: 1rem;
-}
-
-.right-container .im{
-  gap: 1rem ;
+.left-container .im {
   padding: 0%;
   display: flex;
   flex-direction: row;
@@ -93,7 +66,35 @@ body {
   justify-content: center;
 }
 
-.container-fluid{
+.left-container .if {
+  text-align: center;
+  color: white;
+  font-size: 1rem;
+}
+
+.container .right-container {
+  background: skyblue;
+  width: 50%;
+  margin: 0 auto;
+  padding: 0.8rem 0.8rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 1rem;
+}
+
+.right-container .im {
+  gap: 1rem;
+  padding: 0%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-fluid {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -101,12 +102,54 @@ body {
   background: rgb(226, 74, 74);
 }
 
-.container-fluid .upper{
+.container-fluid .upper {
   display: flex;
   flex-direction: row;
-  gap: 5rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0rem 0rem;
 }
 
-.smoking .Poverty .Drinking{
+.cond {
   width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+  color: whitesmoke;
+}
+
+.cause {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 200px;
+}
+
+.cause .icons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: whitesmoke;
+  font-size: 2rem;
+  gap: 1rem;
+
+}
+
+.risk{
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.9rem;
+  text-align: justify;
+}
+
+.container-3{
+  width: 100%;
+  margin: 0 auto;
+  background: skyblue;
 }
